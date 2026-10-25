@@ -1,19 +1,21 @@
-# My God Box — v1.4.0
+# My God Box · v1.5.0
 
-A simple, local-first web app for turning over what you cannot control.
+A simple, elegant, local-first web app for turning over what you cannot control.
 
-## v1.4.0 changes
-- Fixed, non-scrolling home experience.
-- Turn It Over opens in a contained, scrollable writing sheet.
-- Turned Over replaces redundant Entries/Reflections navigation.
-- Reflections can be linked to a specific Turned Over item.
-- “What’s Mine to Do?” automatically links back to the Turned Over entry.
-- Quiet Place is a fixed, non-scrolling screen.
-- Themes live inside Settings; existing four themes are unchanged.
+## v1.5.0 workflow
+- Keeps the pre-v1.4 visual language and all four existing themes unchanged.
+- Drawer: Turn It Over, Reflect, Quiet Place; Settings and About anchored at the bottom.
+- Turn It Over from the drawer returns to the same Home experience.
+- Reflect from the drawer opens the same contained, theme-fitting reflection popup used elsewhere.
+- My Entries keeps the previous two-toggle layout: Turned Over / Reflections.
+- Each toggle has one clear action button: TURN SOMETHING OVER or REFLECT.
+- Reflection prompts are a dropdown, including No Prompt.
+- Reflections can be linked to a specific Turned Over entry and show that source when viewed.
+- Long writing scrolls inside the popup, not the page behind it.
+- Themes live inside Settings; no new themes were added.
 - About includes a collapsible How to Install card.
-- Drawer is simplified to Turn It Over / Reflect / Quiet Place, with Settings / About anchored at the bottom.
 
 ## Deploy
-Upload the files in this folder to the root of a GitHub Pages repository.
+Upload the contents of this folder to the root of a GitHub Pages repository.
 
-Data is stored locally in the browser. Use Settings → Backup & Transfer to export a backup.
+No build step or server is required.

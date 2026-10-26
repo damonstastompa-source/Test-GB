@@ -1,21 +1,7 @@
-# My God Box · v1.5.0
+# My God Box · v2.0.1 test build
 
-A simple, elegant, local-first web app for turning over what you cannot control.
+This test build combines the established My God Box visual identity and workflow with stronger local-first persistence foundations inspired by the Gemini prototype.
 
-## v1.5.0 workflow
-- Keeps the pre-v1.4 visual language and all four existing themes unchanged.
-- Drawer: Turn It Over, Reflect, Quiet Place; Settings and About anchored at the bottom.
-- Turn It Over from the drawer returns to the same Home experience.
-- Reflect from the drawer opens the same contained, theme-fitting reflection popup used elsewhere.
-- My Entries keeps the previous two-toggle layout: Turned Over / Reflections.
-- Each toggle has one clear action button: TURN SOMETHING OVER or REFLECT.
-- Reflection prompts are a dropdown, including No Prompt.
-- Reflections can be linked to a specific Turned Over entry and show that source when viewed.
-- Long writing scrolls inside the popup, not the page behind it.
-- Themes live inside Settings; no new themes were added.
-- About includes a collapsible How to Install card.
+Key additions: schema-versioned storage, migration from v1 local data, contained record scrolling, subtle add actions, linked reflections, delete/burn actions, and persistent local storage where supported.
 
-## Deploy
-Upload the contents of this folder to the root of a GitHub Pages repository.
-
-No build step or server is required.
+Upload the contents of this folder to a separate GitHub test repository. Do not replace the established production repository until testing is complete.
